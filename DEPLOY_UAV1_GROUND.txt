@@ -1,0 +1,13 @@
+地面终端部署与使用
+
+一、部署
+按 docs/latest_deployment_activation.md 执行部署或仅更新命令。
+各独立图传网卡：192.168.1.230/24。
+地面互联：终端1～6分别为192.168.2.202、.207、.212、.217、.222、.227。
+机载、地面使用同一份 config/fleet.json。
+
+二、启动
+在 competition_development 目录执行：
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\start_ground.ps1 -ConfirmLiveConfig
+打开 http://127.0.0.1:8000/，选择对应终端编号和任务发布角色。
+机载竞赛程序启动命令见 docs/latest_deployment_activation.md。

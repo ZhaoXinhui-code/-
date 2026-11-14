@@ -1,0 +1,15 @@
+地面终端部署与启动（旧文件名保留）
+
+一、部署
+按 docs/latest_deployment_activation.md 的地面端部署或更新命令执行。
+图传网卡：所有终端均为 192.168.1.230/24。
+地面互联：终端1～6分别为192.168.2.202、.207、.212、.217、.222、.227。
+机载配置：将同一份 config/fleet.json 同步到对应无人机。
+
+二、启动
+进入 competition_development 目录：
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\start_ground.ps1 -ConfirmLiveConfig
+打开 http://127.0.0.1:8000/，选择本机终端编号和任务发布角色。
+机载端进入 ~/competition_development：
+bash ./tools/start_onboard_stack.sh --model p600 --expect-uav-id N --direct --enable-motion
+N替换为对应编号；SU17将--model p600改为--model su17。

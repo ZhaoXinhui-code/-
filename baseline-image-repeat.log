@@ -1,0 +1,21 @@
+test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning (test_image_aggregation.ImageAggregationTest.test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning) ... ok
+test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning (test_image_aggregation.ImageAggregationTest.test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning) ... ok
+test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning (test_image_aggregation.ImageAggregationTest.test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning) ... ok
+test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning (test_image_aggregation.ImageAggregationTest.test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning) ... ok
+test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning (test_image_aggregation.ImageAggregationTest.test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning) ... ok
+test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning (test_image_aggregation.ImageAggregationTest.test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning) ... FAIL
+test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning (test_image_aggregation.ImageAggregationTest.test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning) ... ok
+test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning (test_image_aggregation.ImageAggregationTest.test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning) ... ok
+
+======================================================================
+FAIL: test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning (test_image_aggregation.ImageAggregationTest.test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\zhaoxinhui\Documents\ChatGPT\competition_development\ZHIXIN\.runtime\baseline\competition_backend\tests\test_image_aggregation.py", line 242, in test_publisher_collects_new_peer_result_and_rebuilds_json_without_planning
+    self.assertTrue((output.parent / "images").exists())
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 8 tests in 23.721s
+
+FAILED (failures=1)

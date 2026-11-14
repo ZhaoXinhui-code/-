@@ -1,0 +1,10 @@
+地面端统一启动
+
+各独立图传网卡：192.168.1.230/24。
+终端1地面互联：192.168.2.202；终端3地面互联：192.168.2.212。
+
+在每台电脑的 competition_development 目录执行：
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\start_ground.ps1 -ConfirmLiveConfig
+打开 http://127.0.0.1:8000/，选择对应终端编号，只指定一台任务发布端。
+
+机载启动按 docs/latest_deployment_activation.md 执行。

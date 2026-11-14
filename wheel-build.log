@@ -1,0 +1,9 @@
+Processing c:\users\zhaoxinhui\documents\chatgpt\competition_development\zhixin\competition_backend
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: su17-competition-backend
+  Building wheel for su17-competition-backend (pyproject.toml): started
+  Building wheel for su17-competition-backend (pyproject.toml): finished with status 'done'
+  Created wheel for su17-competition-backend: filename=su17_competition_backend-0.2.0-py3-none-any.whl size=2374817 sha256=9007f20688a8f5429d38b135988c99f54030465e66569de2c1e5ec821db2d088
+  Stored in directory: C:\Users\zhaoxinhui\AppData\Local\Packages\sandbox.{89ca75cc-defa-4ea3-8ff1-dbf4938a4886}\AC\Temp\pip-ephem-wheel-cache-cy4zva5z\wheels\14\14\6e\9e4b3ad825d25f6d2e6906f3dfa632feaac2cc371cc5440f30
+Successfully built su17-competition-backend
